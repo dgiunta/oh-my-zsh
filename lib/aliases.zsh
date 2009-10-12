@@ -51,6 +51,7 @@ alias ls='ls -F --color=auto'
 # List direcory contents
 #alias ls='ls -F' # This messes up colors on my linux system
 alias l='ls -la'
+alias lsa='ls -lah'
 alias ll='ls -alr'
 alias sl=ls # often screw this up
 
@@ -68,7 +69,6 @@ alias et='mate . &'
 alias ett='mate app config lib db public spec test Rakefile Capfile Todo &'
 alias etp='mate app config lib db public spec test vendor/plugins vendor/gems Rakefile Capfile Todo &'
 alias etts='mate app config lib db public script spec test vendor/plugins vendor/gems Rakefile Capfile Todo &'
-<<<<<<< HEAD
 
 ## Ruby related
 # Ruby scripts
