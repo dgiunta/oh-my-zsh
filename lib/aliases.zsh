@@ -41,6 +41,7 @@ alias gb='git branch'
 alias gba='git branch -a'
 alias gdb='git branch -d'
 alias gcount='git shortlog -sn'
+alias gcp='git cherry-pick'
 
 # Show history
 alias history='fc -l 1'
