@@ -51,7 +51,7 @@ alias ls='ls -F --color=auto'
 # List direcory contents
 #alias ls='ls -F' # This messes up colors on my linux system
 alias l='ls -la'
-alias lsa='ls -lah'
+alias lsa='ls -lahG'
 alias ll='ls -alr'
 alias sl=ls # often screw this up
 
