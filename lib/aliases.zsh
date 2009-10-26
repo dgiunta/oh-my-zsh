@@ -15,6 +15,8 @@ alias sd='ruby script/destroy'
 alias sp='ruby script/plugin'
 alias ssp='ruby script/spec'
 alias rdbm='rake db:migrate'
+alias sc='ruby script/console'
+alias sd='ruby script/server --debugger'
 
 # Basic directory operations
 alias .='pwd'
