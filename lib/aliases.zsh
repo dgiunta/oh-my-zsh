@@ -52,8 +52,7 @@ alias history='fc -l 1'
 alias ls='ls -F --color=auto'
 
 # List direcory contents
-alias ls='ls -F -G'
-alias lsa='ls -lahG'
+alias lsa='ls -lah'
 alias l='ls -la'
 alias lsa='ls -lahG'
 alias ll='ls -alr'
