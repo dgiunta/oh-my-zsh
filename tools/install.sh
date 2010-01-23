@@ -9,6 +9,9 @@ else
   git checkout -b dgiunta-base origin/dgiunta-base
 fi
 
+echo "Cloning Oh My Zsh..."
+/usr/bin/env git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+
 echo "Looking for an existing zsh config..."
 if [ -f ~/.zshrc ] || [ -h ~/.zshrc ]
 then
@@ -29,4 +32,3 @@ chsh -s /bin/zsh
 echo "Hooray! Oh My Zsh has been installed."
 /bin/zsh
 source ~/.zshrc
-
