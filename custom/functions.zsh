@@ -10,6 +10,10 @@ function p {
   c _projects/$1
 }
 
+function fl {
+  p _freelance/$1
+}
+
 function reload {
   source ~/.zshrc
 }
