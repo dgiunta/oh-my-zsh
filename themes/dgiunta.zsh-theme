@@ -1,7 +1,7 @@
 if [[ -n $SSH_CONNECTION ]]; then
-  PROMPT_SSH='REMOTE '
+  export PROMPT_SSH="%{$fg[red]%}REMOTE %{$reset_color%}"
 else
-  PROMPT_SSH=''
+  export PROMPT_SSH=""
 fi
 
 PROMPT='$PROMPT_SSH%{$fg[cyan]%}%n %{$fg[green]%}%c %{$fg[yellow]%}$(git_prompt_info)%{$fg[yellow]%}
