@@ -1,5 +1,5 @@
 if [[ -n $SSH_CONNECTION ]]; then
-  PROMPT_SSH="%{$fg[red]%}REMOTE %{$reset_color%}"
+  PROMPT_SSH="%{$fg[red]%}%m: %{$reset_color%}"
 else
   PROMPT_SSH=""
 fi
