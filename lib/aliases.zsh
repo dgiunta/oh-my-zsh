@@ -12,6 +12,7 @@ alias ssp='ruby script/spec'
 alias rdbm='rake db:migrate'
 alias sc='ruby script/console'
 alias sd='ruby script/server --debugger'
+alias devlog='tail -f log/development.log'
 
 # Basic directory operations
 alias .='pwd'
@@ -24,27 +25,14 @@ alias ss='sudo su -'
 
 #alias g='grep -in'
 
-# Git related
-alias g='git'
-alias gst='git status'
-alias gl='git pull'
-alias gup='git fetch && git rebase'
-alias gp='git push'
-alias gd='git diff | mate'
-alias gdv='git diff -w "$@" | vim -R -'
-alias gc='git commit -v'
-alias gca='git commit -v -a'
-alias gb='git branch'
-alias gba='git branch -a'
-alias gdb='git branch -d'
-alias gcount='git shortlog -sn'
-alias gcp='git cherry-pick'
-
 # Show history
 alias history='fc -l 1'
 
-alias ls='ls -F --color=auto'
-alias ll='ls -alr'
+# List directory contents
+alias ls='ls -lah'
+alias ll='ls -l'
+alias la='ls -la'
+alias l=ll
 alias sl=ls # often screw this up
 
 alias sgem='sudo gem'
@@ -57,7 +45,7 @@ alias afind='ack-grep -il'
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
 
 # TextMate
-alias et='mate . &'
+alias et='mate . &; clear'
 alias ett='mate app config lib db public spec test Rakefile Capfile Todo &'
 alias etp='mate app config lib db public spec test vendor/plugins vendor/gems Rakefile Capfile Todo &'
 alias etts='mate app config lib db public script spec test vendor/plugins vendor/gems Rakefile Capfile Todo &'
