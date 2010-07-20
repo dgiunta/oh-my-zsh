@@ -17,3 +17,8 @@ function fl {
 function reload {
   source ~/.zshrc
 }
+
+function k {
+  clear
+  $1
+}
