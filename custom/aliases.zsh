@@ -5,4 +5,6 @@ alias ls='ls -FG'
 alias la='ls -laH'
 
 alias rst="touch tmp/restart.txt"
+alias ss="script/server"
+alias sc="script/console"
 alias hk="h;k"
