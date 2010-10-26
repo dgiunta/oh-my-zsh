@@ -4,7 +4,7 @@ else
   PROMPT_SSH=""
 fi
 
-PROMPT='$PROMPT_SSH%{$fg[cyan]%}%n %{$fg[green]%}%c %{$fg[yellow]%}$(git_prompt_info)%{$fg[yellow]%}
+PROMPT='$PROMPT_SSH%{$fg[cyan]%}%n %{$fg[green]%}%C %{$fg[yellow]%}$(git_prompt_info)%{$fg[yellow]%}
 %# % %{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="["
