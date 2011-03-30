@@ -1,0 +1,2 @@
+#! /usr/bin/env ruby
+puts `rvm info`.split.map(&:strip)[0].sub(":", "")
