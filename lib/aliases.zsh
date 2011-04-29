@@ -13,19 +13,6 @@ alias rdbm='rake db:migrate'
 alias sc='ruby script/console'
 alias sdb='ruby script/dbconsole'
 alias sd='ruby script/server --debugger'
-<<<<<<< HEAD
-
-# Ruby related
-alias ss='thin --stats "/thin/stats" start'
-alias sg='ruby script/generate'
-alias sd='ruby script/destroy'
-alias sp='ruby script/plugin'
-alias ssp='ruby script/spec'
-alias rdbm='rake db:migrate'
-alias sc='ruby script/console'
-alias sd='ruby script/server --debugger'
-=======
->>>>>>> ff389cd5d3f97962526cf898dfd7a302c51e6c2d
 alias devlog='tail -f log/development.log'
 
 # Basic directory operations
