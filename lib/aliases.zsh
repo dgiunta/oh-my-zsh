@@ -4,9 +4,16 @@
 alias pu='pushd'
 alias po='popd'
 
+alias ss='thin --stats "/thin/stats" start'
+alias sg='ruby script/generate'
+alias sd='ruby script/destroy'
+alias sp='ruby script/plugin'
+alias ssp='ruby script/spec'
+alias rdbm='rake db:migrate'
 alias sc='ruby script/console'
 alias sdb='ruby script/dbconsole'
 alias sd='ruby script/server --debugger'
+<<<<<<< HEAD
 
 # Ruby related
 alias ss='thin --stats "/thin/stats" start'
@@ -17,6 +24,8 @@ alias ssp='ruby script/spec'
 alias rdbm='rake db:migrate'
 alias sc='ruby script/console'
 alias sd='ruby script/server --debugger'
+=======
+>>>>>>> ff389cd5d3f97962526cf898dfd7a302c51e6c2d
 alias devlog='tail -f log/development.log'
 
 # Basic directory operations
@@ -52,7 +61,7 @@ alias afind='ack-grep -il'
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
 
 # TextMate
-alias et='mate . &'
+alias et='mate . &; clear'
 alias ett='mate app config lib db public spec test Rakefile Capfile Todo &'
 alias etp='mate app config lib db public spec test vendor/plugins vendor/gems Rakefile Capfile Todo &'
 alias etts='mate app config lib db public script spec test vendor/plugins vendor/gems Rakefile Capfile Todo &'
